@@ -1,0 +1,19 @@
+#overlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    max-height: 80vh;
+    max-width: 70vw;
+    height: auto;
+    z-index: 1001;
+    margin-left: 25px;
+  }
+}
